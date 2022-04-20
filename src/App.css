@@ -1,0 +1,55 @@
+.App {
+    height: 100vh;
+    padding: 50px;
+    background-color: rgba(75, 116, 109, 0.433);
+    font-family: Lato, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../src/Img/foto.png);
+}
+
+.calculator {
+
+    width: 400px;
+    height: 620px;
+    padding: 14px;
+    background-color: #256eb3;
+    border-radius: 20px;
+    border: 5px solid white;
+    margin-top: 100px;
+}
+
+.row {
+
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clear-button {
+    height: 80px;
+    font-size: 1.6em;
+    display: flex;
+    flex: 1;
+    background-color: rgba(12, 201, 235, 0.582);
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.clear-button:hover {
+
+    background-color: #1cbdad;
+}
+
+.input {
+    color: white;
+}
