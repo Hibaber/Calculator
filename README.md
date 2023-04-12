@@ -1,3 +1,2 @@
 
 
-# Calculator made with React
